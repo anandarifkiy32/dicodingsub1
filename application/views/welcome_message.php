@@ -74,9 +74,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<form action="">
 			<input type="text" placholder="first name" required>
 			<input type="text" placholder="first name" required>
-			<button type="submit"></button>
+			<button type="submit">Add</button>
 		</form>
-		<table>
+		<table border="1">
 			<thead>
 				<tr>
 					<th>First Name</th>
