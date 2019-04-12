@@ -10,6 +10,19 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$result = $this->UserModel->getUsers()->result();
-		echo json_encode($result);
+		$this->load->view("welcome_message",$result);
+	}
+
+	public function adduser(){
+		$nama = $this->input->post("name");
+		$email = $this->input->post("email");
+
+		$data = array(
+			"Name" 	=> $nama,
+			"Email"	=> $email
+		);
+
+		$this->UserModel->insert($data);
+		redirect("https://rifkiystarksub1.azurewebsites.net/");
 	}
 }
