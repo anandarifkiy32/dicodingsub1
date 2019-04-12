@@ -3,7 +3,7 @@
     $serverName = "tcp:rifkiystarkdicoding.database.windows.net,1433";
     $conn = sqlsrv_connect($serverName, $connectionInfo);
 
-    $sql = "INSERT INTO Table_1 (UserId, Name, Email) VALUES (?, ?, ?)";
+    $sql = "INSERT INTO Users (UserId, Name, Email) VALUES (?, ?, ?)";
     $params = array(1, "Kiki", "Ganteng");
 
     sqlsrv_query( $conn , $sql, $params);
