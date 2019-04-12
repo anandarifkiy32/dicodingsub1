@@ -75,8 +75,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'rifkiystarkdicoding.database.windows.net:1433',
-	'username' => 'rifkiystark',
+	'hostname' => 'tcp:rifkiystarkdicoding.database.windows.net,1433',
+	'username' => 'rifkiystark@rifkiystarkdicoding',
 	'password' => 'Wakwaw123;',
 	'database' => 'submis1',
 	'dbdriver' => 'sqlsrv',
