@@ -9,8 +9,8 @@ class Welcome extends CI_Controller {
 	}
 	public function index()
 	{
-		$result = $this->UserModel->getUsers()->result();
-		$this->load->view("welcome_message",$result);
+		$data['users'] = $this->UserModel->getUsers()->result();
+		$this->load->view("welcome_message",$data);
 	}
 
 	public function adduser(){
