@@ -82,7 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div id="body">
 			<form action="https://rifkiystarksub1.azurewebsites.net/index.php/Welcome/adduser/" method="POST">
 				<input type="text" name="name" required placeholder="Nama"><br>
-				<input type="email" email="email" required placeholder="Email"><br>
+				<input type="email" name="email" required placeholder="Email"><br>
 				<button type="submit">Tambah</button>
 			</form>
 			<table border="1">
