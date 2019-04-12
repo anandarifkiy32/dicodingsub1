@@ -20,7 +20,8 @@ class Welcome extends CI_Controller {
 
 		$data = array(
 			"Name" 	=> $nama,
-			"Email"	=> $email
+			"Email"	=> $email,
+			"dateInput" => date("Y-m-d")
 		);
 
 		$this->UserModel->insert($data);

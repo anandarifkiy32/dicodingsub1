@@ -99,6 +99,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<td><?php echo $i ?></td>
 						<td><?php echo $user->Name ?></td>
 						<td><?php echo $user->Email ?></td>
+						<td><?php echo $user->dateInput ?></td>
 					</tr>
 					<?php $i++; } ?>
 				</tbody>
