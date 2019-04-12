@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'rifkiystarkdicoding.database.windows.net',
+	'hostname' => 'rifkiystarkdicoding.database.windows.net,1433',
 	'username' => 'rifkiystark',
 	'password' => 'Wakwaw123;',
 	'database' => 'submis1',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
