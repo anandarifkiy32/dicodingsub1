@@ -91,6 +91,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<th>No</th>
 						<th>Nama</th>
 						<th>Email</th>
+						<th>Tanggal</th>
 					</tr>
 				</thead>
 				<tbody>
